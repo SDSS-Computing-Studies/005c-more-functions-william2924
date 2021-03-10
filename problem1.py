@@ -10,7 +10,7 @@ return: float the number of degrees of the other unit
 
 Sample assertions:
 assert convertTemp(10,'C') == 50
-assert converTemp(32,'F') == 0
+assert convertTemp(32,'F') == 0
 """
 def converTemp(num,sign):
     if sign == 'C':
